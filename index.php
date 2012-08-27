@@ -113,11 +113,9 @@ if(isset($_FILES[$upload_name])) {
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
 <title>Upload Image</title>
-<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/imo.css" type="text/css" media="screen" />
 
-<!-- includes to image area select and jquery -->
-<script type="text/javascript" src="js/jquery-1.3.2.js"></script> 
-
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script><script type="text/javascript" src="js/imo.js"></script>
 </head>
 <body>
 		<div id="header">

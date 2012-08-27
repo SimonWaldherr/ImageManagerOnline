@@ -86,15 +86,21 @@ if(isset($_POST['x1']) && isset($_POST['x2']) && isset($_POST['y1']) &&isset($_P
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Crop Image</title>
+<!--
 <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" charset="utf-8">
 <link rel="stylesheet" href="css/imgareaselect-0.9.2-animated.css" type="text/css" media="screen" charset="utf-8">
-<link rel="stylesheet" href="css/jquery.lightbox-0.5.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/jquery.lightbox-0.5.css" type="text/css" media="screen" />-->
+
 <!-- includes to image area select and jquery -->
+<!--
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
 <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript" src="js/jquery.imgareaselect-0.9.2.min.js"></script> 
 <script type="text/javascript" src="js/img.settings.js"></script> 
 <script type="text/javascript" src="js/jquery-ui.js"></script>
+-->
+<link rel="stylesheet" href="css/imo.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/imo.js"></script>
 <script type="text/javascript">
 $(window).load(function () { 
 	//defining editing as selectable img area starting with the scale in the choiceSize list.
